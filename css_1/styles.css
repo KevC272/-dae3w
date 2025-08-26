@@ -1,8 +1,82 @@
-body{
-    background-color: aqua;
-    font-family: 'Times New Roman', Times, serif;
+/* 1. Body selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  /* 2. H1 selector */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* 3. H2 selector */
+  h2 {
+    color: #444;
+    margin-left: 20px;
+  }
+  
+  /* 4. H3 selector */
+  h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 20px;
+  }
+  
+  /* 5. Paragraphs */
+  p {
+    margin: 15px 20px;
+    color: #222;
+  }
+  
+  /* 6. Ordered list */
+  ol {
+    margin: 20px;
+    padding-left: 40px;
+    color: #444;
+  }
+  
+  /* 7. List items */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* 8. Anchor links */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 9. Image */
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  /* 10. Main section */
+  main {
+    background: #fff;
     padding: 20px;
-    margin: 10px;
-    width: 500px;
-    height: 30px;
-}
+    margin: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* 11. Footer */
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
